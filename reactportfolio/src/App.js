@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
-import {Layout, Header, HeaderRow, Tab, HeaderTabs, Drawer, Content} from 'react-mdl';
-
+import {Layout, Header, HeaderRow, Navigation, Tab, HeaderTabs, Drawer, Content} from 'react-mdl';
+import Main from './components/main';
 class App extends Component {
   render() {
   return (
@@ -11,14 +11,18 @@ class App extends Component {
         <Header>
             <HeaderRow title="Title" />
             <HeaderTabs ripple activeTab={1} onChange={(tabId) => {}}>
-                <Tab>Tab1</Tab>
-                <Tab>Tab2</Tab>
-                <Tab>Tab3</Tab>
+              <Navigation>
+                <Tab><a href="/">Link</a></Tab>
+                <Tab><a href="/">Link</a></Tab>
+                <Tab><a href="/">Link</a></Tab>
+                </Navigation>
             </HeaderTabs>
+       
         </Header>
         <Drawer title="Title" />
         <Content>
             <div className="page-content">You can add logic to update the content of this container based on the "activeTab" receive in the `onChange` callback.</div>
+            <Main/>
         </Content>
     </Layout>
     </div>
