@@ -6,15 +6,16 @@ class Landingpage extends Component {
             <div style= {{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img src="https://image.flaticon.com/icons/svg/194/194938.svg"
+                        <img src="https://i.ibb.co/KrqB4yG/721-A9720-copy-2.png"
                         alt="avatar"
                         className="avatar-img" /> 
 
                         <div className="banner-text">
-                            <h1>Full Stack Web Developer</h1>
+                            <h1>Ian Campbell<br></br>Full Stack Web Developer</h1>
+                           
                             <hr/>
 
-                            <p>HTML/CSS | Bootstrap | Javascript | React | React Native | NodeJS | Express |MongoDB</p>
+                        <p>HTML/CSS | SQL | Bootstrap | Javascript | React <br></br> React Native | NodeJS | Express | MongoDB</p>
                         
                         <div className="social-links">
 
@@ -26,16 +27,9 @@ class Landingpage extends Component {
                             <a href="http://google.com" rel="noopener noreferrer" target="_black">
                                 <i className="fa fa-github-square" aria-hidden="true"/>
                                 </a>
-                                {/* Freecodecamp */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_black">
-                                <i className="fa fa-free-code-camp" aria-hidden="true"/>
-                                </a>
-                                {/* Youtube */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_black">
-                                <i className="fa fa-free-code-camp" aria-hidden="true"/>
-                                </a>
+                     
 
-
+ 
                         </div>
                         </div>
                     </Cell>
