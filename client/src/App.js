@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
-import { Layout, Header, Navigation, Content } from 'react-mdl';
+import { Layout, Header, Navigation} from 'react-mdl';
 import Routes from './components/Router';
 import { Link } from 'react-router-dom';
 
@@ -36,7 +36,7 @@ function Nav() {
       <Link to="/">Home</Link>
       <Link to="/Resume">Resume</Link>
       <Link to="/Aboutme">Projects</Link>
-      {/* <Link to="/Projects">About me</Link> */}
+    
       <Link to="/Contact">Contact</Link>
     </Navigation>
   )

@@ -9,14 +9,13 @@ class Aboutme extends Component {
         if (this.state.activeTab === 0) {
             return (
                 <Card shadow={5} style={{ width: '450px', height: '320px', margin: 'auto', position: 'fixed' }}>
-                    <CardTitle expand style={{ color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC' }}>Update</CardTitle>
+                    <CardTitle expand style={{ color: '#fff', background: 'url(https://i.ibb.co/DbXqHG6/Screen-Shot-2019-10-08-at-3-47-25-PM.png) bottom right 15% no-repeat #46B6AC' }}>Update</CardTitle>
                     <CardText>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aenan convallis.
+                        Top Five Music App
         </CardText>
                     <CardActions border>
-                        <Button colored>View spp</Button>
-                        <IconButton name="share" />
+                        <Button colored>View Code </Button>
+                        <IconButton name="share" a href="https://github.com/icampbell9615/Project_1_Music.io" />
                     </CardActions>
                 </Card>
 
@@ -26,14 +25,13 @@ class Aboutme extends Component {
         } else if (this.state.activeTab === 1) {
             return (
                 <Card shadow={5} style={{ width: '450px', height: '320px', margin: 'auto', position: 'fixed' }}>
-                    <CardTitle expand style={{ color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC' }}>Update</CardTitle>
+                    <CardTitle expand style={{ color: '#fff', background: 'url(https://i.ibb.co/d7k6Vm3/Screen-Shot-2019-10-08-at-3-51-48-PM.png) bottom right 15% no-repeat #46B6AC' }}>Update</CardTitle>
                     <CardText>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aenan convallis.
+                       Ian Campbell's Digital Portfolio
         </CardText>
                     <CardActions border>
-                        <Button colored>View Updates</Button>
-                        <IconButton name="share" />
+                        <Button colored>View Code</Button>
+                        <IconButton name="share" a href="https://github.com/icampbell9615/reactportfolio" />
                     </CardActions>
                 </Card>
 
