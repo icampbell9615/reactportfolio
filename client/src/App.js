@@ -11,7 +11,7 @@ class App extends Component {
     return (
 
       <Router>
-        <div style={{ height: '300px', position: 'relative' }}>
+        <div>
           <Layout fixedHeader>
             <Header className="header-color" title="Menu" scroll>
               <Nav />
