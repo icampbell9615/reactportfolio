@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Form, FormGroup, Input, Label, Button} from 'reactstrap';
 import {Grid, List, ListItem, Cell, ListItemContent} from 'react-mdl';
-import Container from '@material-ui/core/Container'
+
 // import axios from 'axios';
 
 
@@ -10,8 +10,8 @@ class Contact extends Component {
 
     render() {
         return(
-<Container fixed>
-        <div className="contact-body">
+
+       
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Ian Campbell</h2>
@@ -19,7 +19,8 @@ class Contact extends Component {
           </br>
           <br>
           </br>
-             <p style={{ top: 'fixed', margin: 'auto', paddingTop: '1em'}}>Thank you for visitng my portfolio <br></br> I look forward to hearing from you soon</p>
+             <p style={{ top: 'fixed', margin: 'auto', paddingTop: '1em'}}>Thank you for visitng my portfolio <br></br>
+              I look forward to hearing from you soon</p>
           <br>
           </br>
           <br>
@@ -73,9 +74,8 @@ class Contact extends Component {
             </div>
           </Cell>
         </Grid>
-        
-      </div>
-      </Container>
+      
+
       
     )
   }

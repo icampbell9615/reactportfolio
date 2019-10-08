@@ -5,21 +5,13 @@ import Experience from '../components/Experience';
 import Skills from '../components/Skills';
 
 
+
 class Resume extends Component {
   render() {
     return (
-  
-      <div>
-        <Grid className="resume-grid">
-          <Cell col={4}>
-            <div style={{ textAlign: 'center' }}>
-              <img
-                src=""
-                alt=""
-                style={{ height: '200px' }}
-              />
-            </div>
 
+        <Grid className="mdl-textfield__input">
+          <Cell col={4}>
             <h2 style={{ paddingTop: '2em' }}>Ian Campbell</h2>
             <h4 style={{ color: 'grey' }}>Software Engineer</h4>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
@@ -74,8 +66,8 @@ class Resume extends Component {
             />
           </Cell>
         </Grid>
-       
-      </div>
+  
+  
         
          
     )

@@ -71,6 +71,8 @@
 
 }
 
+
+
 .center-grid {
   position: fixed;
 }
@@ -79,10 +81,7 @@
   position: fixed;
 }
 
-.resume-grid {
-  position: fixed;
-  padding-bottom: 20px;
-}
+
 
 
 .header-color {
@@ -111,6 +110,12 @@
   height: 100%;
 }
 
+
+.resume-right-col{
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
 
 
 .social-links {

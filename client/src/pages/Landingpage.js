@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
 
+
 const styles = {
     root: {
         width: '100%',
@@ -14,6 +15,7 @@ const styles = {
 class Landingpage extends Component {
     render() {
         return(
+            
             <div style= {styles.root}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
