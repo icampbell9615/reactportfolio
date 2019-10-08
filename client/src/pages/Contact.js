@@ -19,7 +19,7 @@ class Contact extends Component {
           </br>
           <br>
           </br>
-             <p style={{ top: 'fixed', margin: 'auto', paddingTop: '1em'}}>Thank you for visitng my portfolio <br></br>
+             <p style={{ top: 'fixed', margin: 'auto', paddingTop: '1em'}}>Thank you for visiting my portfolio <br></br>
               I look forward to hearing from you soon</p>
           <br>
           </br>
