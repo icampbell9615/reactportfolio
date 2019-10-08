@@ -8,6 +8,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
+
 app.use(express.static('../client/build'));
 
 app.listen(PORT, ()=> console.log("Listening on :%s", PORT))
