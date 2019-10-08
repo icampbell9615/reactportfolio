@@ -19,10 +19,11 @@ class Landingpage extends Component {
             <div style= {styles.root}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
+                        <div className="container">
                         <img src="https://i.ibb.co/KrqB4yG/721-A9720-copy-2.png"
                         alt="avatar"
                         className="avatar-img" /> 
-
+                          </div>
                         <div className="banner-text">
                             <h1>Ian Campbell<br></br>Full Stack Web Developer</h1>
                            

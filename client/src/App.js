@@ -36,7 +36,6 @@ function Nav() {
       <Link to="/">Home</Link>
       <Link to="/Resume">Resume</Link>
       <Link to="/Aboutme">Projects</Link>
-    
       <Link to="/Contact">Contact</Link>
     </Navigation>
   )
