@@ -21,7 +21,7 @@ $(function() {
 
 	// Change page title back on focus
 	$(window).focus(function() {
-	  $("title").text(Ian Campbell);
+	  $("title").text("Ian Campbell");
 	});
 });
 
